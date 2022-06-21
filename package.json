@@ -34,5 +34,20 @@
     "karma-jasmine": "~5.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.7.2"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhouwei0324/Angular-Demo.git"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhouwei0324/Angular-Demo/issues"
+  },
+  "homepage": "https://github.com/zhouwei0324/Angular-Demo#readme"
 }
