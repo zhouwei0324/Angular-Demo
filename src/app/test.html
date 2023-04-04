@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第一个标签</title>
+</head>
+
+<body>
+  <h1>这是第一个标签页</h1>
+
+  <script>
+    document.addEventListener('visibilitychange', () => {
+      let state = document.visibilityState
+
+      if (state === "hidden") {
+        document.title = "我知道，你切换标签页了--tab1"
+      } else {
+        document.title = "嘻嘻，你又回来了"
+      }
+    })
+  </script>
+</body>
+
+</html>
